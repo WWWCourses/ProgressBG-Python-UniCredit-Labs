@@ -1,1 +1,5 @@
-print('hi')
+print('hi 10')
+print('hi 9')
+print('hi 8')
+print('hi 7')
+print('hi 6')
