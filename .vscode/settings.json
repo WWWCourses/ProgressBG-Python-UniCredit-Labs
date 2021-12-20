@@ -21,8 +21,7 @@
         "markdown",
         "latex",
         "plaintext",
-        "html",
-        "python"
+        "html"
     ],
     "python.analysis.completeFunctionParens": true
 }
