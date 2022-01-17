@@ -13,7 +13,7 @@
     // "python.autoComplete.preloadModules": ["numpy", "pandas", "matplotlib"],
     "python.autoComplete.addBrackets": true,
     "python.linting.pylintEnabled": true,
-    "python.pythonPath": "/home/nemsys/.pyenv/versions/3.9.7/bin/python3.9",
+    "python.pythonPath": "/bin/python3",
     "spellright.language": [
         "English (American)"
     ],
