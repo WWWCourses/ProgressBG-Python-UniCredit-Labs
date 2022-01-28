@@ -12,7 +12,7 @@
     // ],
     // "python.autoComplete.preloadModules": ["numpy", "pandas", "matplotlib"],
     "python.autoComplete.addBrackets": true,
-    "python.linting.pylintEnabled": true,
+    "python.linting.pylintEnabled": false,
     "python.pythonPath": "/bin/python3",
     "spellright.language": [
         "English (American)"
