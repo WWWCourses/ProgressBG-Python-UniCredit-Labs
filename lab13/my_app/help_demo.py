@@ -1,0 +1,3 @@
+import functools
+
+help(functools)
