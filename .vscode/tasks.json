@@ -4,7 +4,8 @@
         {
             "label": "Python: Terminal (external)",
             "type": "shell",
-            "command": "${config:python.pythonPath}",
+            // "command": "${config:python.pythonPath}",
+            "command":"python",
             "args": [
                 "${file}"
             ],
@@ -33,7 +34,11 @@
                 "\n WORKSPACEROOT: ${workspaceRoot}",
                 "\n CWD: ${cwd}",
                 "\n PythonPath: ${config:python.pythonPath}"
-            ]
+            ],
+            // "group": {
+            //     "kind": "build",
+            //     "isDefault": true
+            // },
         }
     ]
 }
