@@ -1,0 +1,20 @@
+
+# searching for requests.py:
+# 1. Current Working Directory - текуща работна папка
+# 2. PYTHONENV
+# 3. Python instalation folder
+
+
+PATH:
+:/home/nemsys/.pyenv/shims
+:/home/nemsys/.pyenv/bin
+:/home/nemsys/.local/bin
+:/usr/local/sbin
+:/usr/local/bin
+:/usr/sbin
+:/usr/bin
+:/sbin
+:/bin
+:/usr/games
+:/usr/local/games
+:/snap/bin
