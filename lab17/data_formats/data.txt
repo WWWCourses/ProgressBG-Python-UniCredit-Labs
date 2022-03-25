@@ -1,0 +1,3 @@
+apple:2.5
+bananas:3.5
+strawberries:5.5
