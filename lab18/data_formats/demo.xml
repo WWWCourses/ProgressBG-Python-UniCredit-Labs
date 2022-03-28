@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+	<fruits>
+		<fruit fruit="apple">2.5</fruit>
+		<fruit fruit="banana">3.5</fruit>
+	</fruits>
+	<fruits>
+		<fruit fruit="apple">2.5</fruit>
+		<fruit fruit="banana">3.5</fruit>
+	</fruits>
+</root>

@@ -28,9 +28,10 @@
 # --------------------------------- with JSON -------------------------------- #
 import json
 
-input_file = 'demo.json'
+input_file = 'data.json'
 
 data = json.load( open(input_file, 'r') )
 
-print(data)
+for el in data:
+	print(el['apple'])
 

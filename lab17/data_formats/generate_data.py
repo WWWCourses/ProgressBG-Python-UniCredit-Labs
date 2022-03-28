@@ -1,11 +1,11 @@
 from copyreg import pickle
 
 
-data = {
-	'apple':2.50,
-	'bananas': 3.50,
-	'strawberries': []
-}
+# data = {
+# 	'apple':2.50,
+# 	'bananas': 3.50,
+# 	'strawberries': []
+# }
 
 # ---------------- serialize by hand  - the worst possible way --------------- #
 # output_file = 'data.txt'
@@ -34,10 +34,24 @@ data = {
 #
 
 # --------------------------------- with JSON -------------------------------- #
-# import json
+import json
 
-# output_file = 'data.json'
-# print( json.dumps(data) )
+data = [
+	{
+		'apple':2.50,
+		'bananas': 3.50,
+		'strawberries': [1,2,3]
+	},
+	{
+		'apple':4.50,
+		'bananas': 1.50,
+		'strawberries': [2,1,3]
+	},
+]
 
-# json.dump(data, open(output_file,'w'))
+output_file = 'data.json'
+print( json.dumps(data) )
+
+with open(output_file,'w') as f:
+	json.dump(data, f, indent=4 )
 

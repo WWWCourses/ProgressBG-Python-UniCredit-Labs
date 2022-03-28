@@ -1,1 +1,20 @@
-{"apple": 2.5, "bananas": 3.5, "strawberries": []}
+[
+    {
+        "apple": 2.5,
+        "bananas": 3.5,
+        "strawberries": [
+            1,
+            2,
+            3
+        ]
+    },
+    {
+        "apple": 4.5,
+        "bananas": 1.5,
+        "strawberries": [
+            2,
+            1,
+            3
+        ]
+    }
+]
