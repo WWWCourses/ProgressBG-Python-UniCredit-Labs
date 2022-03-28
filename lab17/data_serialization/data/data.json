@@ -1,0 +1,12 @@
+[
+    {
+        "name": "Ada",
+        "balance": 1000,
+        "is_credit": true
+    },
+    {
+        "name": "Pesho",
+        "balance": 2.5,
+        "is_credit": false
+    }
+]
