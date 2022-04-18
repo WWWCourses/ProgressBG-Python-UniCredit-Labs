@@ -1,0 +1,12 @@
+11.30 - 15.05 = > 3*60+35 = 215 -15 = 200
+
+
+18.04 = > day19 + 2h from day20
+
+Variant 1:
+	21.04 => 1h from day20 + 2h from day 21 (13.00 - 15.15)
+	28.04 => 1h from day 21 + 1h day22(Test) (13.00 - 14.30 )
+
+Variant 2:
+	21.04 => 1h from day20+ 3h from day 21 (13.00 - 16.00)
+	28.04 => 1h day22(Test) (13.00 - 13.40 )
