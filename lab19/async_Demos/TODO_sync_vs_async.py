@@ -3,12 +3,12 @@ import asyncio
 
 async def coroutine_A():
 	print('coroutine_A starts!')
-	time.sleep(3)
+	await asyncio.sleep(3)
 	print('coroutine_A completed!')
 
 async def coroutine_B():
 	print('coroutine_B starts!')
-	time.sleep(2)
+	await asyncio.sleep(2)
 	print('coroutine_B completed!')
 
 def main():
